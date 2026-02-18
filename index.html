@@ -5,12 +5,37 @@
   <title>Jorge Rompiche | Software Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- SEO -->
+  <meta name="description" content="Software Engineer Full Stack Developer focused on backend systems and cloud architecture.">
+  <meta property="og:title" content="Jorge Rompiche | Software Engineer">
+  <meta property="og:description" content="Backend-focused Full Stack Engineer with Cloud orientation.">
+  <meta property="og:type" content="website">
+
   <style>
+    :root {
+      --bg: #f8f9fa;
+      --text: #1a1a1a;
+      --card: #ffffff;
+      --primary: #111;
+      --secondary: #555;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --text: #e6e6e6;
+        --card: #1b1f27;
+        --primary: #ffffff;
+        --secondary: #aaaaaa;
+      }
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
-      background: #f8f9fa;
-      color: #1a1a1a;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.3s ease;
     }
 
     .container {
@@ -27,10 +52,11 @@
     .hero h1 {
       margin: 0;
       font-size: 2.2rem;
+      letter-spacing: -0.5px;
     }
 
     .hero p {
-      color: #555;
+      color: var(--secondary);
       margin-top: 8px;
       font-weight: 500;
     }
@@ -46,40 +72,61 @@
       border-radius: 6px;
       text-decoration: none;
       font-weight: 500;
-      transition: 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
     }
 
     .btn-primary {
-      background: #111;
-      color: white;
+      background: var(--primary);
+      color: var(--bg);
     }
 
     .btn-primary:hover {
-      background: #333;
+      opacity: 0.85;
     }
 
     .btn-outline {
-      border: 1px solid #111;
-      color: #111;
+      border: 1px solid var(--primary);
+      color: var(--primary);
     }
 
     .btn-outline:hover {
-      background: #111;
-      color: white;
+      background: var(--primary);
+      color: var(--bg);
+    }
+
+    .socials {
+      margin-top: 15px;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: var(--secondary);
+      font-size: 0.9rem;
+    }
+
+    .socials a:hover {
+      color: var(--primary);
     }
 
     .cv-content {
-      background: white;
+      background: var(--card);
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+      animation: fadeIn 0.6s ease;
     }
 
     footer {
       text-align: center;
       margin-top: 40px;
-      color: #888;
+      color: var(--secondary);
       font-size: 0.85rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     @media (max-width: 600px) {
@@ -101,98 +148,102 @@
         <a class="btn btn-primary" href="cv-en.pdf" download>Download CV (English)</a>
         <a class="btn btn-outline" href="cv-es.pdf" download>Descargar CV (Español)</a>
       </div>
+
+      <div class="socials">
+        <a href="https://github.com/jorgerompiche" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jorgerompiche" target="_blank">LinkedIn</a>
+      </div>
     </div>
 
     <div class="cv-content">
-        <h1 id="jorge-antonio-rompiche-herrera">Jorge Antonio Rompiche
-        Herrera</h1>
-        <p><strong>Full Stack Software Engineer | Backend-Focused |
-        Cloud-Oriented</strong></p>
-        <p>Mexico City, Mexico | jorgerompiche@gmail.com | (+502) 5117
-        8125<br />
-        https://www.linkedin.com/in/jorgerompiche</p>
-        <h2 id="professional-summary">Professional Summary</h2>
-        <p>Full Stack Software Engineer with strong backend
-        specialization and experience building and deploying enterprise
-        solutions in financial environments. Skilled in RESTful APIs,
-        CI/CD automation, Docker-based containerization, and Linux
-        environments. Experienced in data pipelines (ETLs, Data Marts,
-        Data Warehouses) and service architecture modernization toward
-        scalable systems and cloud-native practices.</p>
-        <h2 id="professional-experience">Professional Experience</h2>
-        <h3
-        id="senior-technology-analyst-iii-banco-chn-insurance-bonds-division">Senior
-        Technology Analyst III – Banco CHN (Insurance &amp; Bonds
-        Division)</h3>
-        <p>Aug 2023 – Jan 2026</p>
-        <ul>
-        <li>Designed and implemented enterprise BPM solutions for
-        business process optimization.</li>
-        <li>Led development of the Insurance &amp; Bonds Information
-        Portal centralizing operational and financial data.</li>
-        <li>Built reporting systems and dashboards integrated with
-        corporate databases.</li>
-        <li>Implemented and managed CI/CD pipelines automating
-        deployments.</li>
-        <li>Designed and optimized ETL pipelines, Data Marts, and Data
-        Warehouse structures.</li>
-        <li>Contributed to service architecture modernization toward
-        modular and scalable systems.</li>
-        <li>Coordinated technical data engineering initiatives and
-        project execution.</li>
-        </ul>
-        <h3
-        id="application-support-analyst-telus-international">Application
-        Support Analyst – TELUS International</h3>
-        <p>Sep 2022 – Jul 2023</p>
-        <ul>
-        <li>Coordinated monthly production deployments of enterprise
-        NetCracker system.</li>
-        <li>Managed CI processes, builds, and version control
-        workflows.</li>
-        <li>Administered Git repositories and supported development
-        teams.</li>
-        <li>Collaborated with international teams during release
-        cycles.</li>
-        </ul>
-        <h3
-        id="technical-programmer-analyst-i-grupo-financiero-bantrab">Technical
-        Programmer Analyst I – Grupo Financiero BANTRAB</h3>
-        <p>Jan 2022 – Sep 2022</p>
-        <ul>
-        <li>Developed backend services for digital banking
-        processes.</li>
-        <li>Implemented services for online credit applications and
-        digital signatures.</li>
-        <li>Integrated services with third-party systems within agile
-        SCRUM teams.</li>
-        </ul>
-        <h3 id="software-developer-e-solutions-s.a.">Software Developer
-        – E-Solutions S.A.</h3>
-        <p>Sep 2017 – Jan 2022</p>
-        <ul>
-        <li>Developed features for enterprise BPM systems.</li>
-        <li>Implemented internal corporate messaging system.</li>
-        <li>Executed QA and production deployments and managed database
-        maintenance.</li>
-        </ul>
-        <h2 id="technical-skills">Technical Skills</h2>
-        <p>Backend: Node.js, TypeScript, Java, Python, C# (.NET), REST,
-        SOAP<br />
-        Frontend: AngularJS, JavaScript<br />
-        Databases: SQL Server, MySQL, Oracle, MongoDB, Redis<br />
-        DevOps: Docker, Docker Compose, Git, GitHub, GitLab, GitLab
-        CI/CD, Azure DevOps, Jenkins, SonarQube<br />
-        Cloud: AWS, Kubernetes, Google Cloud Platform, Microsoft
-        Azure<br />
-        Operating Systems: Linux (Debian, RHEL), Windows Server</p>
-        <h2 id="education">Education</h2>
-        <p>Master’s in Information &amp; Communication Technologies – In
-        Progress (2026–2027)<br />
-        Bachelor’s in Computer Science Engineering – Coursework
-        Completed (2025)<br />
-        Diploma in SQL Server Database Administration (2021)<br />
-        Linux Essentials (2020) | English B2 (2023)</p>
+      <h1 id="jorge-antonio-rompiche-herrera">Jorge Antonio Rompiche
+      Herrera</h1>
+      <p><strong>Full Stack Software Engineer | Backend-Focused |
+      Cloud-Oriented</strong></p>
+      <p>Mexico City, Mexico | jorgerompiche@gmail.com | (+502) 5117
+      8125<br />
+      https://www.linkedin.com/in/jorgerompiche</p>
+      <h2 id="professional-summary">Professional Summary</h2>
+      <p>Full Stack Software Engineer with strong backend specialization
+      and experience building and deploying enterprise solutions in
+      financial environments. Skilled in RESTful APIs, CI/CD automation,
+      Docker-based containerization, and Linux environments. Experienced
+      in data pipelines (ETLs, Data Marts, Data Warehouses) and service
+      architecture modernization toward scalable systems and
+      cloud-native practices.</p>
+      <h2 id="professional-experience">Professional Experience</h2>
+      <h3
+      id="senior-technology-analyst-iii-banco-chn-insurance-bonds-division">Senior
+      Technology Analyst III – Banco CHN (Insurance &amp; Bonds
+      Division)</h3>
+      <p>Aug 2023 – Jan 2026</p>
+      <ul>
+      <li>Designed and implemented enterprise BPM solutions for business
+      process optimization.</li>
+      <li>Led development of the Insurance &amp; Bonds Information
+      Portal centralizing operational and financial data.</li>
+      <li>Built reporting systems and dashboards integrated with
+      corporate databases.</li>
+      <li>Implemented and managed CI/CD pipelines automating
+      deployments.</li>
+      <li>Designed and optimized ETL pipelines, Data Marts, and Data
+      Warehouse structures.</li>
+      <li>Contributed to service architecture modernization toward
+      modular and scalable systems.</li>
+      <li>Coordinated technical data engineering initiatives and project
+      execution.</li>
+      </ul>
+      <h3
+      id="application-support-analyst-telus-international">Application
+      Support Analyst – TELUS International</h3>
+      <p>Sep 2022 – Jul 2023</p>
+      <ul>
+      <li>Coordinated monthly production deployments of enterprise
+      NetCracker system.</li>
+      <li>Managed CI processes, builds, and version control
+      workflows.</li>
+      <li>Administered Git repositories and supported development
+      teams.</li>
+      <li>Collaborated with international teams during release
+      cycles.</li>
+      </ul>
+      <h3
+      id="technical-programmer-analyst-i-grupo-financiero-bantrab">Technical
+      Programmer Analyst I – Grupo Financiero BANTRAB</h3>
+      <p>Jan 2022 – Sep 2022</p>
+      <ul>
+      <li>Developed backend services for digital banking processes.</li>
+      <li>Implemented services for online credit applications and
+      digital signatures.</li>
+      <li>Integrated services with third-party systems within agile
+      SCRUM teams.</li>
+      </ul>
+      <h3 id="software-developer-e-solutions-s.a.">Software Developer –
+      E-Solutions S.A.</h3>
+      <p>Sep 2017 – Jan 2022</p>
+      <ul>
+      <li>Developed features for enterprise BPM systems.</li>
+      <li>Implemented internal corporate messaging system.</li>
+      <li>Executed QA and production deployments and managed database
+      maintenance.</li>
+      </ul>
+      <h2 id="technical-skills">Technical Skills</h2>
+      <p>Backend: Node.js, TypeScript, Java, Python, C# (.NET), REST,
+      SOAP<br />
+      Frontend: AngularJS, JavaScript<br />
+      Databases: SQL Server, MySQL, Oracle, MongoDB, Redis<br />
+      DevOps: Docker, Docker Compose, Git, GitHub, GitLab, GitLab CI/CD,
+      Azure DevOps, Jenkins, SonarQube<br />
+      Cloud: AWS, Kubernetes, Google Cloud Platform, Microsoft
+      Azure<br />
+      Operating Systems: Linux (Debian, RHEL), Windows Server</p>
+      <h2 id="education">Education</h2>
+      <p>Master’s in Information &amp; Communication Technologies – In
+      Progress (2026–2027)<br />
+      Bachelor’s in Computer Science Engineering – Coursework Completed
+      (2025)<br />
+      Diploma in SQL Server Database Administration (2021)<br />
+      Linux Essentials (2020) | English B2 (2023)</p>
     </div>
 
     <footer>
