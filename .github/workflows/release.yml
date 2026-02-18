@@ -1,4 +1,4 @@
-name: Build and Release CV
+name: Build, Release and Deploy CV
 
 on:
   push:
@@ -10,12 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Install Pandoc & LaTeX
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra
+
+      # -------------------------
+      # Generate PDFs
+      # -------------------------
 
       - name: Generate Spanish PDF
         run: |
@@ -33,6 +38,10 @@ jobs:
             --pdf-engine=xelatex \
             -o cv-en.pdf
 
+      # -------------------------
+      # Create GitHub Release
+      # -------------------------
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
@@ -43,13 +52,37 @@ jobs:
             cv-en.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
+      # -------------------------
+      # Generate HTML for Pages
+      # -------------------------
+
       - name: Generate HTML version
         run: |
-          pandoc cv-en.md -o index.html
+          pandoc cv-en.md \
+            --from markdown \
+            --standalone \
+            --metadata title="Jorge Rompiche - CV" \
+            -o index.html
+
+      # -------------------------
+      # Prepare public directory
+      # -------------------------
+
+      - name: Prepare public folder
+        run: |
+          mkdir public
+          cp index.html public/
+          cp cv-en.pdf public/
+          cp cv-es.pdf public/
+
+      # -------------------------
+      # Deploy to GitHub Pages
+      # -------------------------
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: public
+          publish_branch: gh-pages
