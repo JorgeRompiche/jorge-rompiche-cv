@@ -60,17 +60,14 @@ jobs:
       # Generate HTML for Pages
       # -------------------------
 
-      - name: Generate raw HTML content
+      - name: Generate landing HTML
         run: |
           pandoc cv-en.md \
             --from markdown \
-            --to html \
-            --standalone=false \
-            -o content.html
+            --template=templates/landing.html \
+            --standalone \
+            -o index.html
 
-      - name: Inject content into landing template
-        run: |
-          sed "s|{{CONTENT}}|$(cat content.html | sed 's/[&/\]/\\&/g')|" templates/landing.html > index.html
 
 
       # -------------------------
