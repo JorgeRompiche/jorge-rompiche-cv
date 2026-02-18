@@ -5,13 +5,9 @@
 Mexico City, Mexico | jorgerompiche@gmail.com | (+502) 5117 8125  
 https://www.linkedin.com/in/jorgerompiche  
 
----
-
 ## Professional Summary
 
 Full Stack Software Engineer with strong backend specialization and experience building and deploying enterprise solutions in financial environments. Skilled in RESTful APIs, CI/CD automation, Docker-based containerization, and Linux environments. Experienced in data pipelines (ETLs, Data Marts, Data Warehouses) and service architecture modernization toward scalable systems and cloud-native practices.
-
----
 
 ## Professional Experience
 
@@ -48,8 +44,6 @@ Sep 2017 – Jan 2022
 - Implemented internal corporate messaging system.
 - Executed QA and production deployments and managed database maintenance.
 
----
-
 ## Technical Skills
 
 Backend: Node.js, TypeScript, Java, Python, C# (.NET), REST, SOAP  
@@ -58,8 +52,6 @@ Databases: SQL Server, MySQL, Oracle, MongoDB, Redis
 DevOps: Docker, Docker Compose, Git, GitHub, GitLab, GitLab CI/CD, Azure DevOps, Jenkins, SonarQube  
 Cloud: AWS, Kubernetes, Google Cloud Platform, Microsoft Azure  
 Operating Systems: Linux (Debian, RHEL), Windows Server  
-
----
 
 ## Education
 

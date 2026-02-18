@@ -1,6 +1,6 @@
-\documentclass[9.5pt,a4paper]{article}
+\documentclass[9pt,a4paper]{article}
 
-\usepackage[margin=0.6in]{geometry}
+\usepackage[margin=0.55in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -9,13 +9,18 @@
 
 \setmainfont{TeX Gyre Heros}
 
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=*}
-
 \pagestyle{empty}
 
+% Reduce spacing before/after sections
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Remove extra spacing in lists
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=*}
+
+% Fix pandoc tightlist issue
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+  \setlength{\itemsep}{0pt}
+  \setlength{\parskip}{0pt}}
 
 \begin{document}
 
