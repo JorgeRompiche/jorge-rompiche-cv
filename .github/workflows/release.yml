@@ -1,0 +1,55 @@
+name: Build and Release CV
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Pandoc & LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra
+
+      - name: Generate Spanish PDF
+        run: |
+          pandoc cv-es.md \
+            --from markdown \
+            --template=templates/onepage.tex \
+            --pdf-engine=xelatex \
+            -o cv-es.pdf
+
+      - name: Generate English PDF
+        run: |
+          pandoc cv-en.md \
+            --from markdown \
+            --template=templates/onepage.tex \
+            --pdf-engine=xelatex \
+            -o cv-en.pdf
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: CV Release v${{ github.run_number }}
+          files: |
+            cv-es.pdf
+            cv-en.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Generate HTML version
+        run: |
+          pandoc cv-en.md -o index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .

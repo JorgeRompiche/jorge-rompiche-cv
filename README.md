@@ -19,3 +19,6 @@ Every push to `main` triggers a CI workflow that:
 ---
 
 Full Stack Software Engineer | Backend-Focused | Cloud-Oriented
+
+![Build Status](https://github.com/JorgeRompiche/jorge-rompiche-cv/actions/workflows/release.yml/badge.svg)
+
