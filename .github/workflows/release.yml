@@ -60,13 +60,18 @@ jobs:
       # Generate HTML for Pages
       # -------------------------
 
-      - name: Generate HTML version
+      - name: Generate raw HTML content
         run: |
           pandoc cv-en.md \
             --from markdown \
-            --standalone \
-            --metadata title="Jorge Rompiche - CV" \
-            -o index.html
+            --to html \
+            --standalone=false \
+            -o content.html
+
+      - name: Inject content into landing template
+        run: |
+          sed "s|{{CONTENT}}|$(cat content.html | sed 's/[&/\]/\\&/g')|" templates/landing.html > index.html
+
 
       # -------------------------
       # Prepare public directory
