@@ -2,8 +2,7 @@
 
 **Full Stack Software Engineer | Backend-Focused | Cloud-Oriented**
 
-Mexico City, Mexico | jorgerompiche@gmail.com | (+502) 5117 8125  
-https://www.linkedin.com/in/jorgerompiche  
+Mexico City, Mexico | jorgerompiche@gmail.com | (+502) 5117 8125 | https://www.linkedin.com/in/jorgerompiche  
 
 ## Professional Summary
 
@@ -50,7 +49,7 @@ Backend: Node.js, TypeScript, Java, Python, C# (.NET), REST, SOAP
 Frontend: AngularJS, JavaScript  
 Databases: SQL Server, MySQL, Oracle, MongoDB, Redis  
 DevOps: Docker, Docker Compose, Git, GitHub, GitLab, GitLab CI/CD, Azure DevOps, Jenkins, SonarQube  
-Cloud: AWS, Kubernetes, Google Cloud Platform, Microsoft Azure  
+Cloud fundamentals: AWS, Kubernetes, Google Cloud Platform, Microsoft Azure  
 Operating Systems: Linux (Debian, RHEL), Windows Server  
 
 ## Education
@@ -58,4 +57,5 @@ Operating Systems: Linux (Debian, RHEL), Windows Server
 Master’s in Information & Communication Technologies – In Progress (2026–2027)  
 Bachelor’s in Computer Science Engineering – Coursework Completed (2025)  
 Diploma in SQL Server Database Administration (2021)  
-Linux Essentials (2020) | English B2 (2023)
+Linux Essentials (2020)
+English B2 (2023)
