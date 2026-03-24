@@ -4,9 +4,7 @@ Ciudad de México, México | jorgerompiche@gmail.com | (+502) 5117 8125 | https:
 
 ## Perfil Profesional
 
-Ingeniero de software Full Stack con especialización en desarrollo backend y experiencia en el diseño, construcción e implementación de soluciones empresariales en entornos financieros. Experto en desarrollo de servicios REST, automatización de despliegues mediante CI/CD y contenedores con Docker en entornos Linux.
-
-Experiencia en integración de sistemas financieros, diseño de pipelines de datos (ETLs, Data Marts y Data Warehouse) y modernización de arquitecturas de servicios. Enfocado en buenas prácticas de ingeniería de software, escalabilidad y evolución hacia arquitecturas cloud-native.
+Ingeniero de software con especialización en desarrollo backend y experiencia en el diseño, construcción e implementación de soluciones empresariales en entornos financieros. Experiencia en desarrollo de servicios REST, automatización de despliegues mediante CI/CD y contenedores con Docker en entornos Linux, integración de sistemas financieros, pipelines de datos (ETLs, Data Marts y Data Warehouse) y modernización de arquitecturas de servicios. Enfocado en buenas prácticas de ingeniería de software yescalabilidad.
 
 ## Experiencia Profesional
 
