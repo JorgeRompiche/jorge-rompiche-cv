@@ -56,8 +56,9 @@ Sistemas Operativos:Linux (Debian, RHEL), Windows Server
 
 ## Formación Académica
 
-Master en Tecnologías de la Información y Comunicación – Cursando (2026 – 2027)
-Ingeniería en Ciencias y Sistemas – Pénsum cerrado (2025)
-Diplomado en Bases de Datos SQL Server (2021)
-Linux Essentials – INTECAP (2020)
-Inglés – Nivel B2 (2023)
+Certificación en Desarrollo de Software Seguro - UVG - Cursando (2026)  
+Master en Tecnologías de la Información y Comunicación - USAC – Cursando (2026 – 2027)  
+Ingeniería en Ciencias y Sistemas - USAC – Pénsum cerrado (2025)  
+Diplomado en Bases de Datos SQL Server - Universidad Galileo (2021)  
+Linux Essentials – INTECAP (2020)  
+Inglés – Nivel B2 (2023)  

@@ -54,8 +54,9 @@ Operating Systems: Linux (Debian, RHEL), Windows Server
 
 ## Education
 
+Certificate in Secure Software Development - In Progress (2027)  
 Master’s in Information & Communication Technologies – In Progress (2026–2027)  
 Bachelor’s in Computer Science Engineering – Coursework Completed (2025)  
 Diploma in SQL Server Database Administration (2021)  
-Linux Essentials (2020)
+Linux Essentials (2020)  
 English B2 (2023)
