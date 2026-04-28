@@ -12,7 +12,6 @@ Ingeniero de software con especialización en desarrollo backend y experiencia e
 Abril 2025 – Presente
 
 - Desarrollo de funcionalidades para software empresarial.
-- Implementación de sistema para cliente El Salvador.
 - Proceso de modernización de arquitectura.
 
 ### Analista Senior de Tecnología III - Banco CHN – Seguros y Fianzas
