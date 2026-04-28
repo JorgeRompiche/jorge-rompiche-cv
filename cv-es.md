@@ -4,7 +4,7 @@ Ciudad de México, México | jorgerompiche@gmail.com | (+502) 5117 8125 | https:
 
 ## Perfil Profesional
 
-Ingeniero de software con especialización en desarrollo backend y experiencia en el diseño, construcción e implementación de soluciones empresariales en entornos financieros. Experiencia en desarrollo de servicios REST, automatización de despliegues mediante CI/CD y contenedores con Docker en entornos Linux, integración de sistemas financieros, pipelines de datos (ETLs, Data Marts y Data Warehouse) y modernización de arquitecturas de servicios. Enfocado en buenas prácticas de ingeniería de software yescalabilidad.
+Ingeniero de software con especialización en desarrollo backend y experiencia en soluciones empresariales. Experiencia en desarrollo de servicios REST, automatización de despliegues mediante CI/CD y contenedores en entornos Linux, integración de sistemas financieros, pipelines de datos y modernización de arquitecturas de servicios. Enfocado en buenas prácticas de ingeniería de software y escalabilidad.
 
 ## Experiencia Profesional
 
@@ -18,12 +18,11 @@ Abril 2025 – Presente
 ### Analista Senior de Tecnología III - Banco CHN – Seguros y Fianzas
 Agosto 2023 – Enero 2026  
 
-- Diseñé e implementé soluciones tecnológicas sobre plataforma BPM para optimización de procesos de negocio.
 - Lideré el desarrollo del Portal de Información de Seguros y Fianzas, centralizando datos operativos y financieros.
 - Construí el sistema de reportes y dashboards integrados con bases de datos corporativas.
 - Implementé y administré pipelines CI/CD para automatizar despliegues y reducir errores manuales.
 - Diseñé y optimicé pipelines de datos (ETLs), Data Marts y estructuras de Data Warehouse.
-- Participé en la definición del plan de modernización de arquitectura de servicios hacia un modelo más modular y escalable.
+- Participé en la definición del plan de modernización de arquitectura de servicios hacia un modelo modular y escalable.
 - Coordiné equipo técnico de ingeniería de datos y seguimiento de proyectos tecnológicos.
 
 ### Analista de Soporte de Aplicaciones - TELUS International
@@ -52,12 +51,12 @@ Septiembre 2017 – Enero 2022
 
 ## Habilidades Técnicas
 
-Backend: Node.js, TypeScript, Java, Python, C# (.NET), Servicios REST, Servicios SOAP
-Frontend: AngularJS, JavaScript
-Bases de Datos: SQL Server, MySQL, Oracle, MongoDB, Redis
-DevOps: Docker, Docker Compose, Git, GitHub, GitLab, GitLab CI/CD, Azure DevOps, Jenkins, SonarQube
-Fundamentos Cloud: AWS , Kubernetes , Google Cloud Platform, Microsoft Azure 
-Sistemas Operativos:Linux (Debian, RHEL), Windows Server
+Backend: Node.js, TypeScript, Java, Python, C# (.NET)
+Frontend: AngularJS, JavaScript, React
+BBDD: SQL Server, MySQL, Oracle, MongoDB, Redis
+DevOps: Docker, Git, GitHub, GitLab, GitLab CI/CD, Jenkins, SonarQube
+Cloud: AWS , fundamentos Kubernetes , GCP, Microsoft Azure 
+Sistemas Operativos: Linux, Windows
 
 ## Formación Académica
 
