@@ -8,6 +8,13 @@ Ingeniero de software con especialización en desarrollo backend y experiencia e
 
 ## Experiencia Profesional
 
+### Desarrollador Senior - INGESIS S. A. – División de Seguros
+Abril 2025 – Presente
+
+- Desarrollo de funcionalidades para software empresarial.
+- Implementación de sistema para cliente El Salvador.
+- Proceso de modernización de arquitectura.
+
 ### Analista Senior de Tecnología III - Banco CHN – Seguros y Fianzas
 Agosto 2023 – Enero 2026  
 
@@ -57,6 +64,5 @@ Sistemas Operativos:Linux (Debian, RHEL), Windows Server
 Certificación en Desarrollo de Software Seguro - UVG - Cursando (2026)  
 Master en Tecnologías de la Información y Comunicación - USAC – Cursando (2026 – 2027)  
 Ingeniería en Ciencias y Sistemas - USAC – Pénsum cerrado (2025)  
-Diplomado en Bases de Datos SQL Server - Universidad Galileo (2021)  
-Linux Essentials – INTECAP (2020)  
+Diplomado en Bases de Datos SQL Server - Universidad Galileo (2021)   
 Inglés – Nivel B2 (2023)  
