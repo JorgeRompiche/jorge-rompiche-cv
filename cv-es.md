@@ -9,7 +9,7 @@ Ingeniero de software con especialización en desarrollo backend y experiencia e
 ## Experiencia Profesional
 
 ### Desarrollador Senior - INGESIS S. A. – División de Seguros
-Abril 2025 – Presente
+Abril 2026 – Presente
 
 - Implementación de sistema core de seguros para cliente en El Salvador.
 - Desarrollo de funcionalidades para software empresarial.
