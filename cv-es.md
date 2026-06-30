@@ -4,15 +4,16 @@ Ciudad de México, México | jorgerompiche@gmail.com | (+502) 5117 8125 | https:
 
 ## Perfil Profesional
 
-Ingeniero de software con especialización en desarrollo backend y experiencia en soluciones empresariales. Experiencia en desarrollo de servicios REST, automatización de despliegues mediante CI/CD y contenedores en entornos Linux, integración de sistemas financieros, pipelines de datos y modernización de arquitecturas de servicios. Enfocado en buenas prácticas de ingeniería de software y escalabilidad.
+Ingeniero de software con especialización en desarrollo backend y experiencia en soluciones empresariales. Desarrollo de servicios REST, automatización de despliegues mediante CI/CD y contenedores en entornos Linux, integración de sistemas financieros, pipelines de datos y modernización de arquitecturas de servicios. Enfocado en buenas prácticas de ingeniería de software, seguridad y escalabilidad.
 
 ## Experiencia Profesional
 
 ### Desarrollador Senior - INGESIS S. A. – División de Seguros
 Abril 2025 – Presente
 
+- Implementación de sistema core de seguros para cliente en El Salvador.
 - Desarrollo de funcionalidades para software empresarial.
-- Proceso de modernización de arquitectura.
+- Migración de base de datos de sistema core de PostgreSQL a Oracle.
 
 ### Analista Senior de Tecnología III - Banco CHN – Seguros y Fianzas
 Agosto 2023 – Enero 2026  
@@ -53,13 +54,13 @@ Septiembre 2017 – Enero 2022
 Backend: Node.js, TypeScript, Java, Python, C# (.NET)
 Frontend: AngularJS, JavaScript, React
 BBDD: SQL Server, MySQL, Oracle, MongoDB, Redis
-DevOps: Docker, Git, GitHub, GitLab, GitLab CI/CD, Jenkins, SonarQube
+DevOps: Docker, Git, GitHub, GitLab, CI/CD, Jenkins, SonarQube
 Cloud: AWS , fundamentos Kubernetes , GCP, Microsoft Azure 
 Sistemas Operativos: Linux, Windows
 
 ## Formación Académica
 
-Certificación en Desarrollo de Software Seguro - UVG - Cursando (2026)  
+Certificación en Desarrollo de Software Seguro - UVG - (2026)  
 Master en Tecnologías de la Información y Comunicación - USAC – Cursando (2026 – 2027)  
 Ingeniería en Ciencias y Sistemas - USAC – Pénsum cerrado (2025)  
 Diplomado en Bases de Datos SQL Server - Universidad Galileo (2021)   
